@@ -6,7 +6,6 @@ from loader_funcs import load_history
 
 #%%
 #Auth key, given by registering app with TD Ameritrade API
-#My apikey.txt is gitignored
 with open('apikey.txt', 'r') as api_file:
     apikey = api_file.read()
 
